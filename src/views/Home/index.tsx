@@ -1,10 +1,9 @@
 import React from 'react';
-import ItemCourse from '../../ui-module/ItemCourse';
-import AllTopic from '../../ui-module/AllTopic';
-import { useCourses } from '../../hooks/useCourses';
-import { ICourse } from '../../types/Course';
 
 import styles from './Home.module.scss';
+import { ICourse } from 'types/Course';
+import { useCourses } from 'hooks';
+import { AllTopic, ItemCourse } from 'ui-module';
 
 const Home = () => {
   const { courses, dispatchSetFilteredCourses } = useCourses();

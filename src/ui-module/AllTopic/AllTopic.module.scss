@@ -3,7 +3,6 @@
   width: 240px;
   height: fit-content;
   padding: 12px;
-
   border: 1px solid rgba(207, 207, 228, 1);
 
   &__container {
@@ -11,7 +10,6 @@
     font-weight: 800;
    color:rgba(57, 65, 75, 1);
 
-    // @extend %font-18;
     padding: 10px;
     border-radius: 13px;
   }

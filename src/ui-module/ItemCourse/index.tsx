@@ -1,6 +1,7 @@
 import React from 'react';
-import { useCourses } from '../../hooks/useCourses';
-import { ICourse } from '../../types/Course';
+
+import { useCourses } from 'hooks';
+import { ICourse } from 'types/Course';
 
 import styles from './ItemCourse.module.scss';
 

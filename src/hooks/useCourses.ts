@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCourses, setFilteredCourses } from '../redux/slices/coursesSlice';
-import { baseUrl } from '../api/baseUrl';
-import { RootState } from '../redux/store';
-import { ICourse } from '../types/Course';
+import { baseUrl } from 'api/baseUrl';
+import { ICourse } from 'types/Course';
+import { RootState } from 'redux/store';
 
 export const useCourses = () => {
   const dispatch = useDispatch();

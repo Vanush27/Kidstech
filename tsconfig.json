@@ -19,14 +19,15 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    // "baseUrl": "./src",
+    "baseUrl": "./src",
     "paths": {
       "@api": ["./src/api"],
-      "@assets": ["./src/assets"],
       "@hooks": ["./src/hooks"],
+
 			"@types": ["./src/types"],
-			"@redux/*": ["./src/redux/*"],
-			"@constants": ["./src/constants"],
+			"@redux": ["./src/redux"],
+			
+      "@constants": ["./src/constants"],
 
 			"@ui-module": ["./src/ui-module"],
 			"@views/*": ["./src/views/*"],
@@ -34,4 +35,5 @@
     },
   },
   "include": ["src/**/*", "scss.d.ts"],
+  "exclude": ["./tsconfig.paths.json"]
 }

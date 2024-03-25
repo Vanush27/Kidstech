@@ -1,6 +1,7 @@
 import React from 'react';
+import { LIST_TOPICS } from 'utils/list';
+
 import styles from './AllTopic.module.scss';
-import { LIST_TOPICS } from '../../utils/list';
 
 interface IAllTopicProps {
   handelfilterCourses: (item: string) => void;

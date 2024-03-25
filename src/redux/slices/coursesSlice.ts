@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { ICourse } from '../../types/Course';
+import { ICourse } from 'types/Course';
 
 type TInitialState = {
   courses: ICourse[];
