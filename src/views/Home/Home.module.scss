@@ -1,5 +1,5 @@
 .wrapper {
-  // font-family: $font;
+
   padding: 20px;
   max-width: 1440px;
   width: 100%;
@@ -15,5 +15,18 @@
 
   &__container{
     width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 764px) {
+  .wrapper {
+    display:flex;
+    flex-direction: column;
+
+    &__topic{
+      margin-bottom: 20px;
+    }
+
   }
 }

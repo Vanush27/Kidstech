@@ -12,5 +12,10 @@
       @content;
     }
   }
+  @else if $devices == mobile-l {
+    @media (max-width: $mobile-l) {
+      @content;
+    }
+  }
 }
 
