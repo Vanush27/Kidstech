@@ -1,0 +1,19 @@
+.wrapper {
+  // font-family: $font;
+  padding: 20px;
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  &__topic{
+    margin-right: 20px;
+  }
+
+  &__container{
+    width: 100%;
+  }
+}

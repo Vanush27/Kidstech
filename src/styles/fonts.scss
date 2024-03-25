@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+
+//18
+%font-18 {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+}
+
+%font-18-large {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+%font-18-bold {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+%font-18-large-bold {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+

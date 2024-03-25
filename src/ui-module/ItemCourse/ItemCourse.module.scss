@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 20px;
+
+ 
+ &__image{
+  width: 144px;
+  height: 144px;
+ }
+
+ &__box {
+  border-top-left-radius: 18px; 
+  border-top-right-radius: 18px; 
+  
+}
+
+&__course_item {
+  margin-bottom: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 8px rgba(35, 35, 95, 0.19); 
+}
+
+&__name{
+  margin: 18px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+}

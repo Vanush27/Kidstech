@@ -1,0 +1,16 @@
+@mixin breakpoint($devices) {
+  @if $devices == mobile-m {
+    @media (max-width: $mobile-m) {
+      @content;
+    }
+  } @else if $devices == tablet-l {
+    @media (max-width: $tablet-l) {
+      @content;
+    }
+  } @else if $devices == wide {
+    @media (max-width: $wide) {
+      @content;
+    }
+  }
+}
+
