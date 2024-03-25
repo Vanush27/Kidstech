@@ -22,7 +22,9 @@ const Home = () => {
       <div className={styles.wrapper__topic}>
         <AllTopic handelfilterCourses={handelfilterCourses} />
       </div>
-      <div className={styles.wrapper__container}>{<ItemCourse />}</div>
+      <div className={styles.wrapper__container}>
+        <ItemCourse />
+      </div>
     </div>
   );
 };

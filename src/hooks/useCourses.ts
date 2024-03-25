@@ -14,6 +14,7 @@ export const useCourses = () => {
     try {
       const { data } = await baseUrl.get('');
       dispatch(setCourses(data));
+      dispatch(setFilteredCourses(data));
     } catch (error) {
       console.error('Error fetching courses:', error);
     }
